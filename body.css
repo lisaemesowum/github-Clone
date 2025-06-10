@@ -1,0 +1,205 @@
+.github-container{
+    color: white;
+    background-color: brown;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.github-second{
+    background-color: #0d1117;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+.top-repositories-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+/* ===================================top repositories=================================== */
+.flexnew{
+    /* background-color: green; */
+    width:24% ; 
+}
+.flexttexr{
+    display: flex;
+    gap: 105px;
+   
+}
+.new-green a{
+    display: flex;
+    background-color: #238636;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 29px;
+    border-radius: 9px;
+    position: relative;
+    top:-5px;
+    text-decoration: none;
+    color: white;
+}
+.new-green:hover a{
+    background-color: rgb(28, 138, 28);
+}
+.new-green h4{
+   position: relative;
+   top:5px;
+}
+.flexnew{
+    margin-top: 51px;
+    padding-left: 24px;
+}
+.flexnew h4{
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+              Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+ font-size: 14px;
+ margin-bottom: 13px;
+}
+.find-buttons{
+    width: 100%;
+}
+.find-buttons input{
+    background-color: rgba(255, 255, 255, 0.029);
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 270px;
+    padding: 9px 10px 10px 10px;
+    border: none;
+    border:  2px solid  #3d444d;
+    outline: none;
+    margin-bottom: 15px;
+}
+.github-search::placeholder{
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+             Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.profile1 img{
+    border-radius: 50%; 
+}
+.profile1 img{
+    width: 20px;
+    height: 20px;
+}
+.profile1{
+    display: flex;
+    gap: 10px;
+    /* line-height: 30px; */
+}
+.profile1 p{
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+             Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+             font-size: 14px;
+             margin-bottom: 10px;
+}
+.usernames a{
+    text-decoration: none;
+    color: white;
+}
+.usernames:hover a{
+    text-decoration: underline;
+}
+.showmore a{
+color: rgba(255, 255, 255, 0.69);
+text-decoration: none;
+font-size: 13px;
+position: relative;
+top:7px;
+}
+.showmore:hover a{
+    color: #4493f8;
+}
+/* ============================home====================================================================== */
+.home-container{
+    background-color: #010409;;
+    width: 51%;
+}
+.home-body{
+    /* background-color: red; */
+    height: 100vh;
+    padding-top: 40px;
+    width: 94%;
+    margin: auto;
+}
+.home-text h1{
+    margin-bottom: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+             Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+             font-size: 22px;
+             margin-bottom: 10px;
+}
+.ask-butt{
+    position: relative;
+}
+.ask-butt input{
+     background-color: rgba(255, 255, 255, 0.066);
+    color: white;
+    font-size: 14px;
+    border-radius: 12px;
+    width: 650px;
+    padding: 14px 10px 10px 10px;
+    border: none;
+    border:  2px solid  #3d444d;
+    outline: none;
+    margin-bottom: 15px;
+    
+}
+.send svg{
+    fill: currentColor;
+    color: rgba(255, 255, 255, 0.572);
+    transition: color 0.2s;
+}
+.send{
+    position: absolute;
+    top:25%;
+    left: 94%;
+}
+/* =============================================== */
+.bug-container{
+    width: 100%;
+}
+.bug-div{
+    display: flex;
+    gap: 10px;
+}
+.suggest-flex svg{
+    fill: currentColor;
+    color: #27ab42;
+    transition: color 0.2s;
+}
+.suggest-flex{
+    display: flex;
+    gap:5PX;
+     padding: 9px 14px 9px 14px;
+    border: none;
+    border:  2px solid  #3d444d;
+    outline: none;
+    border-radius: 20px;
+}
+.suggest-flex p{
+    font-size: 15px;
+}
+/* ====================================last change=========================================== */
+.last-change-div{
+      background-color: #010409;;
+    width: 25%;
+
+}
+
+
+
+
+
+
+
+
+
+
+.copilot ,.new-green svg {
+  fill: currentColor;
+  color: white;
+  transition: color 0.2s;
+}

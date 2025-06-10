@@ -12,10 +12,10 @@ body{
     width: 100%;
     height: 10%;
     display: flex;
+    /* margin-bottom: 1px; */
 }
 .github-div{
     /* background-color: red; */
-    
     width: 60%;
     height: 100%;
     /* margin: auto; */
@@ -97,7 +97,7 @@ body{
     padding: 6px 30px 6px 30px;
     border: none;
     border:  2px solid  #3d444d;
-    
+    outline: none;
 }
 .github-search::placeholder{
      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
