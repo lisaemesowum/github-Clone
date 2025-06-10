@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #010409;
+}
+.github-navigation{
+    /* background-color: brown; */
+    border-bottom: 1px solid #3d444d;
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+.github-div{
+    /* background-color: red; */
+    
+    width: 60%;
+    height: 100%;
+    /* margin: auto; */
+    display: flex;
+    gap: 7px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 14px;
+    padding-left: 7px;
+}
+
+.menu-nav button{
+  /* width: 35px;
+  height: 35px; */
+  border-radius: 6px;
+  border: none;
+  padding: 6px 6px;
+  background-color: transparent;
+ border:1px solid #3d444d;
+}
+.menu-nav i{
+    color: rgba(255, 255, 255, 0.572);
+     font-size: 19px;     
+}
+
+.github-icon i{
+   text-decoration: none;
+   color: white;
+ 
+}
+.bi-github{
+    font-size: 29px;
+    color: black;
+    padding: 9px;
+    
+}
+.dashboard {
+  /* padding: 6px; */
+  padding-top: 8px;
+  color: rgba(255, 255, 255, 0.885);
+  
+}
+.dashboard h4{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+             Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.right-side{
+    background-color: black;
+    display: flex;
+    gap:10px;
+    width: 50%;
+    color: white;
+    /* padding: 2%; */
+    justify-content: center;
+    align-items:center;
+}
+.github-search{
+    position: relative;
+    
+}
+.search-icon{
+    position: absolute;
+    left:8px;
+    top:26%;
+    font-size: 13px;
+}
+.search-icon i{
+    color: rgba(255, 255, 255, 0.507);
+}
+.github-search input{
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 250px;
+    padding: 6px 30px 6px 30px;
+    border: none;
+    border:  2px solid  #3d444d;
+    
+}
+.github-search::placeholder{
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+             Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.copilot{
+    position: relative;
+}
+.copilot .copilot-b svg {
+  fill: currentColor;
+  color: rgba(255, 255, 255, 0.507);
+  transition: color 0.2s;
+}
+.copilot-b{
+    padding: 7px 10px;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.507);
+     background-color: transparent;
+      border:  1px solid  #3d444d;
+}
+.line{
+color: red;
+width: 1px;
+height: 20px;
+
+background-color: rgba(255, 255, 255, 0.507);
+}
+/* .creste-new{
+
+} */
+.Button-content{
+     padding: 7px 10px;
+    border-radius: 4px; 
+    display: flex;
+    gap:6px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border:  1px solid  #3d444d;
+}
+.bi-plus-lg{
+    font-size: 15px;
+}
+.Button-content i{
+    font-weight: 900;
+     color: rgba(255, 255, 255, 0.507);
+}
+.bi-caret-down-fill{
+    font-size: 10px;
+}
+.issues button {
+ padding: 7px 10px;
+    border-radius: 4px; 
+    background-color: transparent;
+     border:  1px solid  #3d444d;
+}
+.issues .Button--iconOnly {
+   color: rgba(255, 255, 255, 0.507);
+ 
+}
+
+.issues .octicon {
+  fill: currentColor;
+   background-color: transparent;
+}
+.pull-respect button{
+     padding: 7px 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    border:  1px solid  #3d444d;
+}
+.pull-respect .octicon {
+  fill: currentColor;
+  color: rgba(255, 255, 255, 0.507);
+  transition: color 0.2s;
+   
+}
+
+.notification button{
+      padding: 7px 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    border:  1px solid  #3d444d;
+}
+.notification .octicon {
+  fill: currentColor;
+  color: rgba(255, 255, 255, 0.507);
+  transition: color 0.2s ease;
+}
+.profile img{
+    border-radius: 50%;
+    
+}
+.profile img{
+    width: 36px;
+}
